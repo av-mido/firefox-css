@@ -1,0 +1,35 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+    /*
+     * TreeStyleTabs solution to remove tabs
+     *
+     * Solution by: https://news.ycombinator.com/item?id=15343940 */
+
+    #TabsToolbar, #sidebar-header {
+      visibility: collapse !important;
+    }
+
+    #TabsToolbar {
+      margin-bottom: -21px !important;
+    }
+
+    .closebox {
+      display: none
+    }
+
+    .tab:hover .closebox {
+      display: block;
+    }
+
+    .tab {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+
+    .tab .icon {
+      padding-top: 2px; /* reducing it by 2px */
+      padding-bottom: 2px;
+    }
+
+    :root {
+      --tab-height: 22px; /* reducing it by 4px */
+    }
