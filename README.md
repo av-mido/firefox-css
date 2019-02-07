@@ -8,3 +8,4 @@ For more details:
 - http://kb.mozillazine.org/UserChrome.css
 - http://kb.mozillazine.org/Profile_folder
 - https://news.ycombinator.com/item?id=15342362
+- https://news.ycombinator.com/item?id=18836189
